@@ -1,0 +1,380 @@
+@font-face {
+	font-family: "Roboto";
+	src: url(../fonts/roboto/Roboto.ttf)
+}
+
+body{
+	font-family: "Roboto";
+}
+
+body a{
+    text-decoration: none;
+    color: black;
+}
+
+/*---------
+HEADER
+---------*/
+
+header{
+  	padding: 15px 20px 0px 20px;
+    background-image: url("../img/fundo-banner.jpg");
+}
+
+header nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+header nav a{
+	margin: 30px 30px 0 10px;
+	display: flex;
+    justify-content: space-between;
+}
+
+header nav ul{
+    display: flex;
+}
+
+header nav ul li a.home{
+    font-family: Roboto;
+    font-style: bold;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    align-items: center;
+
+    background: #FFC61C;
+    border-radius: 20px;
+
+    padding: 6px 10px 6px 10px;
+
+    color: black;
+}
+
+header nav ul li a{
+    font-family: Roboto;
+    font-style: bold;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+
+    padding: 6px 10px 6px 10px;
+
+    color: white;
+}
+
+header section{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+header h3{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 27px;
+    /* or 125% */
+
+
+    color: #FFC61C;
+
+    mix-blend-mode: normal;
+
+}
+
+header section div h4{
+	font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 42px;
+    /* or 125% */
+
+    margin: 15px 0 15px 0;
+
+    color: white;
+
+    mix-blend-mode: normal;
+}
+
+header h5{
+	font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 27px;
+    /* or 125% */
+
+    color: white;
+
+    mix-blend-mode: normal;
+}
+
+header p{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    margin: 12px 20px 12px;
+    color: white;
+  
+
+}
+
+/*---------
+FORM
+---------*/
+
+section.form{
+    padding: 120px 0px 60px 120px;
+    background-color: #FFC61C; 
+}
+
+section.form{
+    display: flex;
+    justify-content: space-between;
+}
+
+section.form div.text p{
+    font-family: Roboto;
+    font-style: normal;
+    font-size: 18px;
+    /* identical to box height, or 353% */
+    width: 500px;
+    color: black;
+    line-height: 26px;
+
+    margin: 20px 0 40px 0;
+
+    mix-blend-mode: normal;
+}
+
+
+section.form h2{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    /* identical to box height, or 139% */
+    margin: 20px 0 20px 0;
+    width: 600px;
+    color: black;
+
+    mix-blend-mode: normal;
+
+}
+
+section.form h3{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    /* identical to box height, or 139% */
+    margin: 20px 0 20px 0;
+    width: 500px;
+    color: black;
+
+    mix-blend-mode: normal;
+}
+
+
+section.form p.btn a{
+    font-family: Roboto;
+    font-style: bold;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    align-items: center;
+
+    background: black;
+    border-radius: 4px;
+
+    margin: 25px 0 40px 0;
+    padding: 8px 16px 8px 16px;
+
+    color: white;
+}
+
+/*---------
+APP
+---------*/
+
+section.app{
+    padding: 70px 20px 50px 100px;
+    background-color: white;
+}
+
+
+section.app h2#title{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 46px;
+    /* identical to box height, or 139% */
+    margin: 10px 0 20px 0;
+    color: #FFC61C;
+    text-align: center;
+
+    mix-blend-mode: normal;
+}
+
+section.app h3#title{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 50px;
+    /* identical to box height, or 139% */
+    margin: 10px 0 20px 0;
+	text-align: center;
+    color: black;
+
+    mix-blend-mode: normal;
+}
+
+section.app p{
+    font-family: Roboto;
+    font-style: normal;
+    font-size: 18px;
+    /* identical to box height, or 353% */
+    width: 500px;
+    color: black;
+    line-height: 26px;
+
+    margin: 20px 0 40px 0;
+
+    mix-blend-mode: normal;
+}
+
+section div.divs{
+	display: flex;
+	justify-content: space-between;
+}
+
+section div.divs h2{
+	font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    /* identical to box height, or 139% */
+    margin: 80px 0 20px 0;
+    color: black;
+
+    mix-blend-mode: normal;
+}
+
+section img{
+	margin: 30px 25px;
+}
+
+section div.divs div.img img{
+	width: 200px;
+}
+
+
+
+/*---------
+NUMBER
+---------*/
+
+section.number{
+    padding: 150px 20px 150px 100px;
+    background-color: #FFC61C; 
+}
+
+
+section.number h2{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 38px;
+    /* or 125% */
+    text-align: center;
+
+    margin: 15px 0 15px 0;
+
+    color: black;
+
+    mix-blend-mode: normal;
+}
+
+section.number h3{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 50px;
+    /* or 125% */
+    text-align: center;
+
+    margin: 30px 0 15px 0;
+
+    color: black;
+
+    mix-blend-mode: normal;
+}
+
+/*---------
+FOOTER
+---------*/
+
+footer{
+    background: black;
+    padding: 120px 130px 140px 130px
+}
+
+footer div.divs{
+	display: flex;
+    justify-content: space-between;
+}
+
+footer h3{
+	color: #FFC61C;
+	font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    /* identical to box height, or 139% */
+    margin: 10px 18px 20px 0;
+}
+
+footer h2{
+	font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    /* identical to box height, or 139% */
+    margin: 10px 0 20px 0;
+    color: white;
+
+    mix-blend-mode: normal;
+}
+
+footer p{
+	font-family: Roboto;
+    font-style: normal;
+    font-size: 18px;
+    /* identical to box height, or 353% */
+    width: 350px;
+    color: white;
+    line-height: 18px;
+
+    margin: 20px 0 40px 0;
+
+    mix-blend-mode: normal;
+}
+
+footer div.redes img{
+	margin: 0 0 0 12px;
+	width: 25px;
+}
+
+footer div h3 img{
+	margin: 0 0 0 12px;
+	width: 25px;
+}
+
+footer div p img{
+	margin: 0 12px;
+}
+
+
+

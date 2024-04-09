@@ -1,0 +1,475 @@
+
+body a{
+    text-decoration: none;
+    color: black;
+}
+
+/*---------
+HEADER
+---------*/
+
+header{
+    padding: 15px 20px 0px 20px;
+}
+
+header nav a img{
+    padding: 15px 0px 0px 70px;
+}
+
+header nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+header nav ul{
+    display: flex;
+}
+
+header nav ul li{
+    margin: 30px 30px 0 10px;
+}
+
+header nav ul li a.home{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+
+    color: #202336;
+}
+
+header nav ul li a{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+
+    color: #B8BECD;
+}
+
+a.sign{
+    background: #FB8F1D;
+    border-radius: 8px;
+
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    /* identical to box height, or 400% */
+
+    align-items: center;
+
+    color: #ffffff;
+
+    mix-blend-mode: normal;
+
+    padding: 13px 35px 13px 35px;
+}
+
+header nav ul li a.login{
+    border: 1px solid #FB8F1D;
+    box-sizing: border-box;
+    border-radius: 8px;
+
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    /* identical to box height, or 400% */
+
+    align-items: center;
+
+    color: #FB8F1D;
+
+    mix-blend-mode: normal;
+
+
+    padding: 13px 40px 13px 40px;
+}
+
+header section{
+    margin: 70px;
+    display: flex;
+    justify-content: space-between;
+}
+
+header section div h1{
+    width: 380px;
+
+    font-family: Playfair Display;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 80px;
+    /* or 125% */
+
+
+    color: #202336;
+
+    mix-blend-mode: normal;
+
+}
+
+header section div p{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 27px;
+    /* identical to box height */
+    padding: 60px 0 0 0 ;
+
+    color: #202336;
+  
+
+    width: 477px;
+    height: 72px;
+}
+
+header section div ul {
+    display: flex;
+}
+
+header section div ul li a.view{
+    border: 2px solid #007FFC;
+    box-sizing: border-box;
+    border-radius: 8px;
+    color: white;
+    background: #007FFC;
+    font-size: 16px;
+    margin: 31px 10px 20px 10px;
+    padding: 13px 40px 13px 40px;
+}
+
+header section div ul li a.learn{
+    border: 2px solid #007FFC;
+    box-sizing: border-box;
+    border-radius: 8px;
+    color: #007FFC;
+    background: white;
+    font-size: 16px;
+    margin: 31px 10px 20px 10px;
+    padding: 13px 40px 13px 40px;
+}
+
+
+header section div img{
+    padding: 0 0 0 100px;
+    position: absolute;
+    left: 620px;
+    width: 500px;
+}
+
+
+/*---------
+TREND
+---------*/
+
+section.trend{
+    padding: 120px 20px 30px 100px;
+}
+
+section.trend div{
+    display: flex;
+    justify-content: space-between;
+}
+
+section.trend div p{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 60px;
+    /* identical to box height, or 353% */
+
+    display: flex;
+    align-items: center;
+
+    color: #FB8F1D;
+
+    mix-blend-mode: normal;
+}
+
+
+section.trend h2{
+    font-family: Playfair Display;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 50px;
+    /* identical to box height, or 139% */
+
+
+    color: #000000;
+
+    mix-blend-mode: normal;
+
+}
+
+section.trend h3{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 19px;
+    line-height: 30px;
+    /* or 158% */
+
+
+    color: #000000;
+
+    mix-blend-mode: normal;
+}
+
+section.trend p{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 26px;
+    /* or 173% */
+    width: 280px;
+    color: #7D7987;
+
+    mix-blend-mode: normal;
+}
+
+section.trend p a{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 28px;
+    /* identical to box height, or 187% */
+
+
+    color: #FB8F1D;
+
+    mix-blend-mode: normal;
+}
+
+section.trend ul{
+    display: flex;
+    justify-content: space-between;
+}
+
+section.trend ul li{
+    margin: 0 14px;
+}
+
+section.trend ul li img{
+    border-radius: 8px 8px 0 0;
+    width: 280px;
+}
+
+
+/*---------
+IMG
+---------*/
+
+section.img{
+    padding: 150px 20px 50px 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+section.img h2{
+    font-family: Playfair Display;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 50px;
+    /* identical to box height, or 139% */
+
+    padding: 20px 0 0 0;
+
+
+    color: #000000;
+
+    mix-blend-mode: normal;
+}
+
+section.img p{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 26px;
+    /* or 173% */
+
+
+    padding: 30px 0 40px 0;
+
+
+
+
+    color: #7D7987;
+
+    mix-blend-mode: normal;
+}
+
+section.img img{
+    width: 600px;
+}
+
+/*---------
+TESTIMONIALS
+---------*/
+
+section.testimonials{
+    padding: 150px 20px 50px 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+section.testimonials div img{
+    padding: 10px 0 10px;
+    width: 170px;
+}
+
+section.testimonials div p{
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 36px;
+    /* or 150% */
+
+
+    color: #000000;
+
+    mix-blend-mode: normal;
+}
+
+
+section.testimonials h2{
+    font-family: Playfair Display;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 50px;
+    /* identical to box height, or 139% */
+    padding: 0 0 90px;
+
+    color: #000000;
+
+    mix-blend-mode: normal;
+
+}
+
+section.testimonials h3{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 48px;
+    /* identical to box height, or 218% */
+    padding: 30px 0 0 0;
+
+    color: #000000;
+
+    mix-blend-mode: normal;
+}
+
+section.testimonials h4{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 48px;
+    /* identical to box height, or 267% */
+
+
+    color: rgba(0, 0, 0, 0.85);
+
+    mix-blend-mode: normal;
+}
+
+section.testimonials img{
+    margin: 0 50px;
+
+}
+
+
+/*---------
+FOOTER
+---------*/
+
+footer{
+    background: #F9F9FB;
+    border-radius: 0px;
+    padding: 80px 120px 40px 120px;
+}
+
+footer div{
+    text-align: center;
+}
+
+footer ul{
+    display: flex;
+    justify-content: space-between;
+}
+
+footer ul li img{
+    padding: 15px 0 15px 0;
+}
+footer ul li h3{
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 19px;
+    line-height: 60px;
+    /* identical to box height, or 316% */
+
+
+    color: #000000;
+
+    mix-blend-mode: normal;
+}
+
+footer ul li p {
+    padding: 0px 0 18px 0;
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 28px;
+
+/* or 156% */
+
+
+color: #848484;
+
+}
+
+footer ul li.a p {
+    padding: 0px 0 18px 0;
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 28px;
+    width: 400px;
+
+    /* or 156% */
+
+
+    color: #848484;
+
+}
+
+footer ul li p a {
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 28px;
+    /* or 156% */
+
+
+    color: #848484;
+
+}
+
